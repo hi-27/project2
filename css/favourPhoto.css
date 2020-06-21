@@ -1,0 +1,148 @@
+.table1{
+    border-collapse: separate;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #47a7ff;
+    width: 100%;
+    letter-spacing: 10px;
+
+}
+.table1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 22px;
+    text-align: left;
+}
+.table1 a:hover{
+    color: lightgoldenrodyellow;
+}
+#person{
+    text-align: right;
+    padding-right: 20px;
+}
+.dropbtn {
+    background-color: #47a7ff;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.dropdown-content a {
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    letter-spacing: 2px;
+}
+.dropdown-content p{
+    margin-left: 5px;
+}
+.dropdown-content a:hover{
+    letter-spacing: 2px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #7addff;
+}
+.dropdown-content >p > a >.tu{
+    width: 13px;
+    padding-right: 2px;
+    padding-left: 0;
+    margin: 0;
+}
+.copyright{
+    background-color: #47a7ff;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top:15px ;
+    margin-bottom: 0;
+    height: 30px;
+}
+.copyright>p{
+    padding-top: 12px;
+    padding-bottom: 0;
+    margin: 0;
+}
+h2{
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+.centre{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #afb3b5;
+    margin: 20px 200px;
+}
+.centre>table{
+    margin: 20px;
+}
+img{
+    width: 1200px;
+    margin: 15px;
+}
+p{
+    font-family: "Comic Sans MS";
+    margin-left: 30px;
+    margin-top: 15px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.modify{
+    margin-left: 30px;
+    margin-right: 5px;
+    color: #3e72ff;
+    border-radius: 5px;
+    width: 80px;
+}
+.delete{
+    margin-left: 5px;
+    color: #9f3a1a;
+    border-radius: 5px;
+    width: 80px;
+}
+.delete1{
+    margin-left: 30px;
+    color: #9f3a1a;
+    border-radius: 5px;
+    width: 80px;
+}
+.centre>.num{
+    text-align: center;
+    color: #47a7ff;
+    white-space: pre;
+    height: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+.centre>.num>a{
+    color: #47a7ff;
+    text-decoration: none;
+}
+.centre>.num>a:hover{
+    color: #3e72ff;
+    text-decoration: none;
+}

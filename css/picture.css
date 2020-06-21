@@ -1,0 +1,127 @@
+.table1{
+    border-collapse: separate;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #47a7ff;
+    width: 100%;
+    letter-spacing: 10px;
+
+}
+
+.table1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 22px;
+    text-align: left;
+}
+.table1 a:hover{
+    color: lightgoldenrodyellow;
+}
+#person{
+    text-align: right;
+    padding-right: 20px;
+}
+.dropbtn {
+    background-color: #47a7ff;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.dropdown-content a {
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    letter-spacing: 2px;
+}
+.dropdown-content a:hover{
+    letter-spacing: 2px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #7addff;
+}
+.dropdown-content >p > a >img{
+    width: 13px;
+    padding-right: 2px;
+}
+.copyright{
+    background-color: #47a7ff;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top:15px ;
+    margin-bottom: 0;
+    height: 30px;
+}
+.copyright>p{
+    padding-top: 12px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.centre{
+    margin: 15px 350px;
+    border-style: solid;
+    border-color: #afb3b5;
+    border-radius: 10px;
+}
+.centre>#pic>img{
+    height: 450px;
+    margin: 25px;
+}
+.centre>#pic{
+    width: 400px;
+    float: left;
+}
+.centre>.details{
+    float: right;
+    margin-right:80px;
+    margin-top: 25px;
+    border-style: solid;
+    border-color: #afb3b5;
+    border-radius: 5px;
+}
+.centre>.details>dl{
+    margin: 5px 10px;
+}
+.centre>.details>dl>dd{
+    font-family: "Comic Sans MS";
+    font-style: italic;
+}
+.centre>.details>div>#kudos{
+    width: 140px;
+    height: 30px;
+    background-color: white;
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+.centre>p{
+    float: bottom;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-family: "Comic Sans MS";
+    margin: 20px;
+}
